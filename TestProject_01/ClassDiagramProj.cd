@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestProject_01.Managers.FileManager" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACIAAAAAAAAEAAACACAAAAAQAAAAAAAgAAggAAE=</HashCode>
+      <FileName>Managers\FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Managers.SContentManager" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAkAAQAAIDIAwCZgQQAQUQIgBAACEo6YAAAAUACIY=</HashCode>
+      <FileName>Managers\SContentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Managers.ScoreManager" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAABAIAgAAAAAAAKACAAAAAQAAAEAAAgAAgAAQA=</HashCode>
+      <FileName>Managers\ScoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Managers.TileManager" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQEACIgSQCAshAASIACIgAAAEAkAAAaRIQACAAEQQI=</HashCode>
+      <FileName>Managers\TileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Scenes.ActionScene" Collapsed="true">
+    <Position X="14.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEIBAAAAgARCBIACIAAAQAAIEAAAJQoAQAAAIAQA=</HashCode>
+      <FileName>Scenes\ActionScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Scenes.CreditsScene" Collapsed="true">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAIAAAAAAAEAAAIAAAEAAAAAAA=</HashCode>
+      <FileName>Scenes\CreditsScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Scenes.GameScene" Collapsed="true">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAIAAgAAAACIABAAAAAFAAAAJAAAAAABAAA=</HashCode>
+      <FileName>Scenes\GameScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Scenes.HelpScene" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAcAAgAAAAEAAAIAAEAAAAAAAA=</HashCode>
+      <FileName>Scenes\HelpScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Scenes.HighscoreScene" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAgAEAAAAAAAAACAAAIAAAAAAAEACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Scenes\HighscoreScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Scenes.StartScene" Collapsed="true">
+    <Position X="12.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAAAAAACAAAYAAgAAAAEACAIAAAQAAAAAAA=</HashCode>
+      <FileName>Scenes\StartScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.UI.HealthBarUI" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\HealthBarUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.UI.PlayerUI" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAEAgAAAAAAgAAAAAAAAACIUJAAAAAAAAA=</HashCode>
+      <FileName>UI\PlayerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Weapons.Bullet" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAIAAQgAAAAAAAAAAAAAAAAAAAAQAAAQAQAA=</HashCode>
+      <FileName>Weapons\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Weapons.FireBall" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CARAAAABCIAAQgAAAAiAAAAAAAAAAQAAEAQAAEQAQAA=</HashCode>
+      <FileName>Weapons\FireBall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Weapons.FlameThrower" Collapsed="true">
+    <Position X="2.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAgAAABAAAAAIAAAAAAAEAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Weapons\FlameThrower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Weapons.MachineGun" Collapsed="true">
+    <Position X="4.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAgAAAAAAAAAIAAABAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\MachineGun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Weapons.Projectile" Collapsed="true">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAACAAAAAIAAAAAAAAAAhAAAAIAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\Projectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Weapons.Rifle" Collapsed="true">
+    <Position X="6.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAgAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\Rifle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Weapons.Shotgun" Collapsed="true">
+    <Position X="9" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAgAAAAAAAAAAAAAFAAAEAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Weapons\Shotgun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Weapons.Weapon" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgACQQgCAgAKAAACAAAQAAAQMAAAIAIBAMAAAAAA=</HashCode>
+      <FileName>Weapons\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Bonfire" Collapsed="true">
+    <Position X="17" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARgQABggAAwIgAAAAAAACAAAAAAAQAAAAQAAAQAAEI=</HashCode>
+      <FileName>Bonfire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Character" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAIAIAASdACAAAgAEIAAAAQAAEAAECAIgAAA=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.CreditsComponent" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAUAAEAAAAhgAAAAAKgIAAAAAADSYAAAAAAAAIAA=</HashCode>
+      <FileName>CreditsComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Game1" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQCACAAgEgAAwQAAAAIAAAAAAoAAAAjCIAAACUAAAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.HealthPickup" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgQEABAAAAAAAAAAAACAAAABAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>HealthPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.HelpComponent" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAUAAEAAAAggAIAAAKwIACAAAACQIAAAAAAIAIAA=</HashCode>
+      <FileName>HelpComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.HighScoreComponent" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAUAAEAAAAggAAEAIKgIAAAAAADSYAAAAAAAAIAA=</HashCode>
+      <FileName>HighScoreComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.MenuComponent" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAgAAgAAAAAQKAIAAAAAgBQYAAAAAAAAAAA=</HashCode>
+      <FileName>MenuComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.MenuComponent2" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAgAAggAAAAQKAYAAAAAgBQwAAAAAAAAAAA=</HashCode>
+      <FileName>MenuComponent2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.PauseMenuComponent" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAWAAAAgAggAAAAEQKgIAAAAAgDQYAAAAAgAAIAA=</HashCode>
+      <FileName>PauseMenuComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Pickup" Collapsed="true">
+    <Position X="12.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgQEABAAA4IgAAAQAACAAAABIEAAAAAAAAAAQAAEA=</HashCode>
+      <FileName>Pickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.PlayerTestie" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCaGAECEAAAwAgCgAACAAEAAABBAAQAAAARAiAAgAEA=</HashCode>
+      <FileName>PlayerTestie.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestProject_01.Score" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Shared" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAACAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Shared.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Soldier" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RBYEEkCEQaIgAoiiAAEKAcEBCAaIAIIQAARAQAMAEEA=</HashCode>
+      <FileName>Soldier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestProject_01.Sprite" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABQAAABAgAgMAgEAAAAEAAAAAECAAIAIAEAAAEAAI=</HashCode>
+      <FileName>Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.Tile" Collapsed="true">
+    <Position X="15" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.TitleScreen" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAgAAAAggAAIBAAIAAAABAAAAIAEAAAAAAQAA=</HashCode>
+      <FileName>TitleScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestProject_01.WeaponPickup" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAACAIAAABAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>WeaponPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="TestProject_01.IHealth" Collapsed="true">
+    <Position X="21" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHealth.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TestProject_01.DamageType" Collapsed="true">
+    <Position X="21" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DamageType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TestProject_01.TeamType" Collapsed="true">
+    <Position X="22.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAgAAAAAAAAAAAAAAAAIAAAAAAAABAAAAA=</HashCode>
+      <FileName>Teams.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

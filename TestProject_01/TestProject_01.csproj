@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RollForward>Major</RollForward>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>flamethrowericon.ico</ApplicationIcon>
+    <Authors>Alfredo Lozano, Brooks Liu</Authors>
+    <Company>The PoopCrew</Company>
+    <Description>Deadlock must be broken</Description>
+    <PackageIcon>flamethrowericon.png</PackageIcon>
+    <Product>Lone Militus</Product>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="LevelFiles\levelTest1.txt" />
+    <None Remove="LevelFiles\leveltest2.csv" />
+    <None Remove="LevelFiles\leveltest2.txt" />
+    <None Remove="LevelFiles\leveltest3.txt" />
+    <None Remove="ScoreFiles\scores.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="flamethrowericon.ico" />
+    <Content Include="LevelFiles\levelTest1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LevelFiles\leveltest2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LevelFiles\leveltest3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ScoreFiles\scores.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.8.1.303" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.1.303" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Assets\flamethrowericon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
+    <Message Text="Restoring dotnet tools" Importance="High" />
+    <Exec Command="dotnet tool restore" />
+  </Target>
+</Project>
